@@ -7,4 +7,6 @@ sudo pip install ipython
 
 chsh -s /usr/bin/zsh
 
+cp ./.emacs ./zshrc ~
+
 echo "[DONE]"
