@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-sudo apt-get install --yes emacs23 emacs-goodies-el gnome-tweak-tool git htop parallel python-pip zsh
+sudo apt-get update
+
+sudo apt-get install --yes emacs24 emacs-goodies-el gnome-tweak-tool git htop parallel python-pip zsh
 
 sudo pip install ipython
 
